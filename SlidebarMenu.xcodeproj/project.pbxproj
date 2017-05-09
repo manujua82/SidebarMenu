@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A251EFFC1EC27D6E009A192C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251EFFA1EC27D6E009A192C /* BaseViewController.swift */; };
+		A251EFFD1EC27D6E009A192C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251EFFB1EC27D6E009A192C /* MenuViewController.swift */; };
 		A2B1F0621EC26E6C00296DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F0611EC26E6C00296DED /* AppDelegate.swift */; };
 		A2B1F0641EC26E6C00296DED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B1F0631EC26E6C00296DED /* ViewController.swift */; };
 		A2B1F0671EC26E6C00296DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B1F0651EC26E6C00296DED /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A251EFFA1EC27D6E009A192C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A251EFFB1EC27D6E009A192C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		A2B1F05E1EC26E6C00296DED /* SlidebarMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidebarMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B1F0611EC26E6C00296DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B1F0631EC26E6C00296DED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				A2B1F0611EC26E6C00296DED /* AppDelegate.swift */,
 				A2B1F0631EC26E6C00296DED /* ViewController.swift */,
+				A251EFFA1EC27D6E009A192C /* BaseViewController.swift */,
+				A251EFFB1EC27D6E009A192C /* MenuViewController.swift */,
 				A2B1F0651EC26E6C00296DED /* Main.storyboard */,
 				A2B1F0681EC26E6C00296DED /* Assets.xcassets */,
 				A2B1F06A1EC26E6C00296DED /* LaunchScreen.storyboard */,
@@ -264,6 +270,8 @@
 			files = (
 				A2B1F0641EC26E6C00296DED /* ViewController.swift in Sources */,
 				A2B1F0621EC26E6C00296DED /* AppDelegate.swift in Sources */,
+				A251EFFC1EC27D6E009A192C /* BaseViewController.swift in Sources */,
+				A251EFFD1EC27D6E009A192C /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +524,7 @@
 				A2B1F0881EC26E6C00296DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B1F0891EC26E6C00296DED /* Build configuration list for PBXNativeTarget "SlidebarMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				A2B1F08B1EC26E6C00296DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B1F08C1EC26E6C00296DED /* Build configuration list for PBXNativeTarget "SlidebarMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				A2B1F08E1EC26E6C00296DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
